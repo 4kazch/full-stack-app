@@ -1,0 +1,21 @@
+:root{
+  --bg: rgb(21, 0, 57);
+  --text: white;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
